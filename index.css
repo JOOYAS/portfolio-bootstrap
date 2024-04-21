@@ -38,6 +38,11 @@ main {
 #paragraph {
     line-height: 2rem;
 }
-#name {
-    
+.image {
+    filter: blur(1px);
+    transition: transform 0.5s, filter 0.5s;
+}
+.image:hover {
+    transform: scale(1.1);
+    filter: blur(0);
 }
